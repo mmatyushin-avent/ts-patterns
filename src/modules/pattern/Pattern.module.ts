@@ -4,6 +4,7 @@ import { PatternService } from './Pattern.service';
 
 import { StrategyModule } from './strategy/Strategy.module';
 import { ObserverModule } from './observer/Observer.module';
+import { DecoratorModule } from './decorator/Decorator.module';
 import { SimpleFactoryModule } from './simpleFactory/SimpleFactory.module';
 import { AbstractFactoryModule } from './abstractFactory/AbstractFactory.module';
 
@@ -11,6 +12,7 @@ import { AbstractFactoryModule } from './abstractFactory/AbstractFactory.module'
   imports: [
     StrategyModule,
     ObserverModule,
+    DecoratorModule,
     SimpleFactoryModule,
     AbstractFactoryModule,
   ],
