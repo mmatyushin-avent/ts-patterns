@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { IDuck, SimpleDuck, RubberDuck, ExoticDuck, WoodenDuck } from '../../../patterns/strategy';
+import { IDuck, SimpleDuck, RubberDuck, ExoticDuck, WoodenDuck } from 'patterns/strategy';
 
 @Injectable()
 export class StrategyService {

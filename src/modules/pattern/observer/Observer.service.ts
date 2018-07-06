@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { ISubject, NewsAggregator, LentaWidget, TvWidget, TwitterWidget, IObserver, INewsBatch } from '../../../patterns/observer';
+import { ISubject, NewsAggregator, LentaWidget, TvWidget, TwitterWidget, IObserver, INewsBatch } from 'patterns/observer';
 
 @Injectable()
 export class ObserverService {

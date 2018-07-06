@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { CarFactory, GermanCarFactory, RussianCarFactory } from '../../../patterns/abstractFactory';
+import { CarFactory, GermanCarFactory, RussianCarFactory } from 'patterns/abstractFactory';
 
 @Injectable()
 export class AbstractFactoryService {

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import * as util from 'util';
 
-import { DrinkBase, BlackTea, GreenTea, Espresso, MilkCondiment, SugarCondiment } from '../../../patterns/decorator';
+import { DrinkBase, BlackTea, GreenTea, Espresso, MilkCondiment, SugarCondiment } from 'patterns/decorator';
 
 @Injectable()
 export class DecoratorService {

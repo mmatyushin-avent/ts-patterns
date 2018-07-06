@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { SimpleFactory, VolkswagenFactory } from '../../../patterns/simpleFactory';
+import { SimpleFactory, VolkswagenFactory } from 'patterns/simpleFactory';
 
 @Injectable()
 export class SimpleFactoryService {
