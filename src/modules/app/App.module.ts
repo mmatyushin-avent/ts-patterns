@@ -2,10 +2,12 @@ import { Module } from '@nestjs/common';
 import { AppController } from './App.controller';
 import { AppService } from './App.service';
 
-import { PatternModule } from '../pattern/Pattern.module';
+import { FTPModule } from 'modules/ftpAdapter/FTP.module';
+import { PatternModule } from 'modules/pattern/Pattern.module';
 
 @Module({
   imports: [
+    FTPModule,
     PatternModule,
   ],
   controllers: [AppController],
