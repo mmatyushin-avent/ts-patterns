@@ -6,10 +6,12 @@ import { TGBotService } from '../tgbot/TGBot.service';
 
 import { FTPModule } from '../ftpAdapter/FTP.module';
 import { PatternModule } from '../pattern/Pattern.module';
+import { TSDecoratorModule } from '../tsDecorator/TSDecorator.module';
 
 @Module({
   imports: [
     FTPModule,
+    TSDecoratorModule,
     PatternModule,
   ],
   controllers: [
@@ -17,7 +19,7 @@ import { PatternModule } from '../pattern/Pattern.module';
   ],
   providers: [
     AppService,
-    TGBotService,
+    // TGBotService,
   ],
 })
 export class AppModule {}
